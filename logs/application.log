@@ -1,0 +1,27 @@
+2024-08-19T11:09:52.403+02:00  INFO 1344 --- [user] [main] com.ecommerce.user.UserApplication       : Starting UserApplication using Java 17.0.11 with PID 1344 (F:\STUDING\SpringBoot\ecommerce_user\target\classes started by Lyubas in F:\STUDING\SpringBoot\ecommerce_user)
+2024-08-19T11:09:52.413+02:00  INFO 1344 --- [user] [main] com.ecommerce.user.UserApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-19T11:10:03.653+02:00  INFO 1344 --- [user] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-19T11:10:04.112+02:00  INFO 1344 --- [user] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 382 ms. Found 1 JPA repository interface.
+2024-08-19T11:10:08.012+02:00  INFO 1344 --- [user] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-08-19T11:10:08.138+02:00  INFO 1344 --- [user] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-19T11:10:08.139+02:00  INFO 1344 --- [user] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-19T11:10:08.755+02:00  INFO 1344 --- [user] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-19T11:10:08.756+02:00  INFO 1344 --- [user] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 15640 ms
+2024-08-19T11:10:10.518+02:00  INFO 1344 --- [user] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-19T11:10:12.062+02:00  INFO 1344 --- [user] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-19T11:10:12.815+02:00  INFO 1344 --- [user] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-19T11:10:19.567+02:00  INFO 1344 --- [user] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-19T11:10:20.088+02:00  INFO 1344 --- [user] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-19T11:10:26.811+02:00  INFO 1344 --- [user] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@205159dc
+2024-08-19T11:10:26.813+02:00  INFO 1344 --- [user] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-19T11:10:37.304+02:00  INFO 1344 --- [user] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-19T11:10:38.108+02:00  INFO 1344 --- [user] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-19T11:10:40.446+02:00  WARN 1344 --- [user] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-19T11:10:42.949+02:00  INFO 1344 --- [user] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-08-19T11:10:42.963+02:00  INFO 1344 --- [user] [main] com.ecommerce.user.UserApplication       : Started UserApplication in 54.309 seconds (process running for 59.727)
+2024-08-19T11:11:14.256+02:00  INFO 1344 --- [user] [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-19T11:11:14.257+02:00  INFO 1344 --- [user] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-19T11:11:14.258+02:00  INFO 1344 --- [user] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-19T11:11:46.074+02:00  INFO 1344 --- [user] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-19T11:11:46.134+02:00  INFO 1344 --- [user] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-19T11:11:46.166+02:00  INFO 1344 --- [user] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
